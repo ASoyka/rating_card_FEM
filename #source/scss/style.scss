@@ -41,7 +41,8 @@ body {
     max-width: 412px;
     background-color: $bg-item;
     border-radius: 30px;
-    display: grid;
+    display: flex;
+    flex-direction: column;
     padding: 48px 32px 32px;
     margin: 24px;
     position: absolute;
